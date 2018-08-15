@@ -1,0 +1,16 @@
+换肤开源地址：
+https://github.com/ximsfei/Android-skin-support
+
+2018/08/09
+一、本应用使用插件换肤：
+具体步骤：
+1、创建changeskin_skin_black皮肤项目（夜间皮肤）;
+2、在drawable下创建layer_activity_bg.xml，设置颜色值
+3、将项目生成apk，将apk后缀改名为skin后缀。此时名称为changeskin_skin_black.skin
+4、在项目changeskin下assets下创建skins包，将changeskin_skin_black.skin复制到该目录下。
+5、调用 SkinCompatManager.getInstance().loadSkin("changeskin_skin_black.skin", null,
+SkinCompatManager.SKIN_LOADER_STRATEGY_ASSETS);即可以更改皮肤颜色
+注意：
+①所有需要换肤时更换的资源（例如：图片，color,String等)均需要放在drawable下，用xml包裹。
+②资源名称需要项目changeskin下的命令保持一致才可以使用。
+  例如：layer_activity_bg.xml在changeskin_skin_black.skin中与项目changeskin中保持一致。

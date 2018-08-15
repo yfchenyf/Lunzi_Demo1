@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/icon_marka"
+        android:shortcutDisabledMessage="@string/set_disable_msg"
+        android:shortcutId="setting"
+        android:shortcutLongLabel="@string/set_long_name"
+        android:shortcutShortLabel="@string/set_short_name">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="cn.chen.shortcutdemo.ShortCutDemoActivity"
+            android:targetPackage="cn.chen.shortcutdemo" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

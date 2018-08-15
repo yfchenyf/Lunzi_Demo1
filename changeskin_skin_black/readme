@@ -1,0 +1,5 @@
+此项目为changeskin的夜间模式皮肤，没有实际逻辑。
+2018/08/09
+只添加需要更改的资源文件。
+资源文件名称需要与changeskin下的名称保持一致。
+写完后，需要将程序打包为apk，更改后缀名为skin，放到changeskin的assets/skins目录下即可以使用。
